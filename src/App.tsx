@@ -76,6 +76,10 @@ export default function App() {
   const [showResetSuccess, setShowResetSuccess] = useState(false);
   const [editingTransaction, setEditingTransaction] = useState<Transaction | null>(null);
 
+  useEffect(() => {
+    document.title = "Khorcha AI";
+  }, []);
+
   // Sync to localStorage
   useEffect(() => {
     try {

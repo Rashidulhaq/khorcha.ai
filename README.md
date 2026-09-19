@@ -126,7 +126,7 @@
 ### Prerequisites
 - **Node.js**: v18.0.0 or higher
 - **npm** or **yarn** / **pnpm**
-- *(Optional)* A Google Gemini API Key from [Google AI Studio](https://aistudio.google.com/)
+- *(Optional)* A Google Gemini API Key from [Google AI](https://ai.google.dev/)
 
 ### 1. Clone the Repository
 ```bash
